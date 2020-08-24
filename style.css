@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Ubuntu-Regular;
+    background-color: rgb(65, 67, 74);
+}
+
+.fullContainer {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+.heading h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+
+.input {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.input input[type="number"]{
+    width: 400px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 5px solid #a2fbff;
+    outline: none;
+}
+
+.output {
+    width: 400px;    
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.output .gram{
+    width: 100%;
+    padding: 25px 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.output .gram:nth-child(1){
+    background-color: #007bff;
+}
+.output .gram:nth-child(2){
+    background-color: #ffc107;
+}
+.output .gram:nth-child(3){
+    background-color: #17a2b8;
+}
+.output .gram:nth-child(4){
+    background-color: #dc3545;
+}
+.output .gram:nth-child(5){
+    background-color: #28a745;
+}

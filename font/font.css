@@ -1,0 +1,15 @@
+@font-face{
+	font-family:"Orbitron-Regular";
+	src:url("../font/Orbitron-Regular.ttf") format("truetype"),
+	url("../font/Orbitron-Regular.eot") format("eot"),	
+	url("../font/Orbitron-Regular.woff") format("woff"),
+	url("../font/Orbitron-Regular.svg#Orbitron-Regular") format("svg");
+}
+
+@font-face{
+	font-family:"Ubuntu-Regular";
+	src:url("../font/Ubuntu-Regular.ttf") format("truetype"),
+	url("../font/Ubuntu-Regular.eot") format("eot"),	
+	url("../font/Ubuntu-Regular.woff") format("woff"),
+	url("../font/Ubuntu-Regular.svg#Ubuntu-Regular") format("svg");
+}
